@@ -1,0 +1,10 @@
+<!-- books/templates/books/book_list.html -->
+<h1>All cars</h1>
+{% for car in object_list %}
+    <ul>
+        <li>Name: {{ car.name }}</li>
+        <li>Company: {{ car.company }}</li>
+        <li>Model: {{ car.model }}</li>
+        <li>Price: {{ car.price }}</li>
+    </ul>
+{% endfor %}

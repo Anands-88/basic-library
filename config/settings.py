@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #local
     'books', #new
+    'cars' # own new
 ]
 
 MIDDLEWARE = [

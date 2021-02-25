@@ -20,3 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('books.urls')), #New
 ]
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',include('cars.urls')),
+]

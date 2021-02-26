@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+    'api.apps.ApiConfig', #new
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,9 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'rest_framework',# django rest framework  app
+
     #local
     'books', #new
-    'cars' # own new
+    'cars', # own new
 ]
 
 MIDDLEWARE = [
